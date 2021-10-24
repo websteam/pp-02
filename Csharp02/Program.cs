@@ -6,6 +6,14 @@ namespace Csharp02
     {
         static void Main(string[] args)
         {
+            Histogram histogram = new Histogram();
+
+            Menu menu = new Menu();
+
+            GuessingGame game = new GuessingGame();
+
+            AvgArray avg = new AvgArray();
+
             TicTacToe ticTacToe = new TicTacToe();
 
             StarTower starTower = new StarTower();
